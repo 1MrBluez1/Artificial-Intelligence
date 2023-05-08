@@ -1,8 +1,9 @@
 # Convolutional Neural Networks (CNNs)
 Convolutional Neural Networks (CNNs) are a class of neural networks commonly used in image and video recognition tasks. They are designed to automatically and adaptively learn spatial hierarchies of features from input data, which makes them particularly effective at processing images and other high-dimensional data.
 
-The current Convolutional Neural Network (CNN) Model was built using Tensorflow and Keras.
+The predictive Convolutional Neural Network (CNN) Model was built using Tensorflow and Keras.
 The following flowchart was used to develope the model.
+
 ![image](https://user-images.githubusercontent.com/71196508/236646896-5a5fcc71-311e-44e0-9a88-d30efe084599.png)
 
 The Main goal of developing this CNN model was to analyze the veracity of the data.
