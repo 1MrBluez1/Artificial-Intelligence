@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Sep  7 20:47:07 2022
-
 @author: Gandalf
 """
 
