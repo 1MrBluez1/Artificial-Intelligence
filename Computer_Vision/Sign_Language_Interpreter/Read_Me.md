@@ -23,3 +23,12 @@ Below is the basic architecture used to create this sign language interpreter
 * Validation and Testing: Evaluate the trained model on a separate validation dataset to assess its performance and fine-tune hyperparameters if necessary. Once the model performs well on the validation set, test it on unseen data to measure its accuracy and generalization capabilities.
 * Deployment: Deploy the trained CNN sign language interpreter by integrating it with OpenCV. Capture video frames using OpenCV, preprocess the frames, detect hands, extract the ROI, and feed it into the CNN model for gesture recognition. The model's output can then be used to interpret sign language gestures in real-time applications.
 
+### Process
+* Run Set_Hand.py to set the hand histogram for creating gestures.
+* Next add gestures and label them by running Create_Gestures.py
+* Create variations in data by using Rotate_Images.py
+* Next run Load_Images.py to develop training and test sets
+* To see and verify the gestures that were created run Display_Gestures.py
+* Now it is time to train our model by running CNN_Model.py
+* Now use Main.py to open the window on your computer and test how well your Sign Language Interpreter is. 
+
